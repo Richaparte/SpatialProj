@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/quickstart_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Server$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Entrance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Entrance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ManageTrajectory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/ManageTrajectory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Entrance$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Entrance$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Entrance$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Entrance$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Server$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ManageTrajectory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/richa/Downloads/finagle/doc/src/sphinx/code/quickstart/target/scala-2.12/classes/ManageTrajectory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
