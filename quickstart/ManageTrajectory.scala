@@ -13,7 +13,7 @@ object ManageTrajectory {
 
   def loadTrajectoryData(spark: SparkSession, filePath: String): DataFrame =
     {
-      /* TO DO */
+      
 
       var df = spark.read.format("json").option("inferSchema", "true").option("multiLine", "true").load(filePath)
 
@@ -40,8 +40,7 @@ object ManageTrajectory {
 
   def getSpatialRange(spark: SparkSession, dfTrajectory: DataFrame, latMin: Double, lonMin: Double, latMax: Double, lonMax: Double): DataFrame =
   {
-    /* TO DO */
-
+    
     dfTrajectory.createOrReplaceTempView("trajectory")
 
     var df = spark.sql("SELECT ARRAY(ST_X(trajectory.point), ST_Y(trajectory.point)) AS loc, vehicle_id, trajectory_id, timestamp FROM trajectory WHERE ST_Contains(ST_Envelope(ST_GeomFromText('LINESTRING(%s %s, %s %s)')), trajectory.point)".format(latMin, lonMin, latMax, lonMax))
@@ -55,8 +54,7 @@ object ManageTrajectory {
 
   def getSpatioTemporalRange(spark: SparkSession, dfTrajectory: DataFrame, timeMin: Long, timeMax: Long, latMin: Double, lonMin: Double, latMax: Double, lonMax: Double): DataFrame =
   {
-    /* TO DO */
-
+  
     dfTrajectory.createOrReplaceTempView("trajectory")
 
     var df = spark.sql("SELECT ARRAY(ST_X(trajectory.point), ST_Y(trajectory.point)) AS loc, vehicle_id, trajectory_id, timestamp FROM trajectory WHERE ST_Contains(ST_Envelope(ST_GeomFromText('LINESTRING(%s %s, %s %s)')), trajectory.point) AND timestamp BETWEEN %s AND %s".format(latMin, lonMin, latMax, lonMax, timeMin, timeMax))
@@ -69,7 +67,7 @@ object ManageTrajectory {
 
   def getKNNTrajectory(spark: SparkSession, dfTrajectory: DataFrame, trajectoryId: Long, neighbors: Int): DataFrame =
   {
-    /* TO DO */
+    
 
     var df = dfTrajectory.groupBy("trajectory_id").agg(collect_list("point").alias("point"))
 
